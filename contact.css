@@ -1,0 +1,156 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    display: flex;
+}
+
+.name input {
+    height: 35px;
+    width: 100%;
+    border-radius: 8px;
+    border: 0.5px solid #d9d9d9;
+}
+
+.Password input {
+    height: 35px;
+    width: 100%;
+    border-radius: 8px;
+    border: 0.5px solid #d9d9d9;
+}
+
+.Email-address input {
+    height: 35px;
+    width: 100%;
+    border-radius: 8px;
+
+    border: 0.5px solid #d9d9d9;
+}
+
+input::placeholder {
+    padding: 0px 10px;
+    color: #d9d9d9;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.left {
+    height: 538px;
+    width: 404px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+/* .right{
+    height: 100%;
+    width: 35%;
+} */
+.button button {
+    width: 100%;
+    height: 32px;
+    border-radius: 10px;
+    background-color: #3a5b22;
+    color: white;
+}
+
+/* .right img{
+    height: 620px;
+} */
+.or {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.div1 {
+    background-color: #f6f6f6;
+    height: 5px;
+    width: 45%;
+}
+
+.div2 {
+    background-color: #f6f6f6;
+    height: 8px;
+    width: 50%;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-l {
+    display: flex;
+    align-items: center;
+    border: 0.5px solid black;
+    height: 32px;
+    width: 43%;
+    padding: 0px 3px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.right-2 {
+    display: flex;
+    align-items: center;
+    border: 0.5px solid black;
+    height: 32px;
+    width: 43%;
+    border-radius: 4px;
+    padding: 0px 6px;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.logos strong {
+    font-size: 14px;
+}
+
+.sign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.sign a {
+    color: #0f3dde;
+}
+
+@media (max-width:768px) {
+    .right {
+        display: none;
+    }
+
+    form {
+        width: 100%;
+    }
+}
+
+@media (max-width:448px) {
+    .left {
+        width: 250px;
+    }
+
+    .logos strong {
+        font-size: 8px;
+    }
+}
